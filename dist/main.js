@@ -1,1 +1,1 @@
-console.log("Hello World");
+(()=>{const e=document.getElementById("content"),t=document.createElement("h1");t.textContent="Sunset Grill",e.appendChild(t);const n=document.createElement("p");n.textContent="The best breakfast, lunch, and dinner",e.appendChild(n)})();
