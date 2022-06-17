@@ -1,5 +1,6 @@
 function createHome() {
     const home = document.createElement('div');
+    home.classList.add('home');
     
     const img = document.createElement('img');
     img.classList.add('image');

@@ -1,4 +1,5 @@
 import loadHome from "./home";
+import loadMenu from "./menu";
 
 function createHeader(){
     const header = document.createElement('div');
@@ -32,8 +33,8 @@ function createNav() {
     menuButton.textContent = 'Menu';
     menuButton.addEventListener('click', (e) => {
         if(e.target.classList.contains('active')) return;
-        setActiveButton(loadButton);
-        //loadMenu();
+        setActiveButton(menuButton);
+        loadMenu();
     });
 
     const contactButton = document.createElement('button');
