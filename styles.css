@@ -17,7 +17,7 @@ body{
     align-items: center;
 }
 
-#header{
+#title{
     padding: 36px;
     font-size: 3.5rem;
     font-family: cursive;
@@ -28,7 +28,7 @@ body{
     padding: 24px;
 }
 
-#hero{
+#header{
     background-color: rgba(0, 0, 0, 0.7);
     width: 100vw;
     text-align: center;
