@@ -58,7 +58,7 @@ body{
     border-bottom: 2px solid white;
 }
 
-.home{
+.home, .contact{
     background-color: rgba(0, 0, 0, 0.7);
     width: 50vw;
     margin: 75px;
